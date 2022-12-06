@@ -1,0 +1,18 @@
+import random
+
+when=['A few years ago','Yerterday','Last night','A long time ago','On 15th august']
+
+who=['a rabbit','an elephant','a mouse','a turtle','a cat']
+
+name=['srinath','kalyan','bharth','pavan','rameez']
+
+residence=['hyderabab','vijayawada','mumbai','delhi','phagwara']
+
+went=['cinema','university','seminar','school','park']
+
+happend=['made a lot of friends','Eats a burger','found a secret key','solved a mistery','wrote a book']
+
+print(random.choice(when)+', '+random.choice(who)+' '+'named'+' '+random.choice(name)+' '+'that lived in'+' '+random.choice(residence)+',')
+
+print('went to the'+' '+random.choice(went)+' '+'and'+' '+random.choice(happend))
+
